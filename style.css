@@ -1,0 +1,67 @@
+/* Style the header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4b4444; /* Change this for your desired background color */
+  display: flex; /* Make the header a flexbox for centering */
+  justify-content: center; /* Center the elements inside the header */
+  padding: 10px 0; /* Add some padding  */
+}
+
+/* Style the navigation bar */
+nav {
+  display: flex; /* Make the navigation a flexbox for centering */
+  flex-wrap: wrap; /* Allow buttons to wrap when screen gets small */
+}
+
+/* Style the buttons */
+a button {
+  margin: 5px; /* Add some margin between buttons */
+  padding: 10px 20px; /* Add some padding inside buttons */
+  background-color: #333; /* Change this for your desired button color */
+  color: #fff; /* Change this for your desired button text color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Indicate clickable button */
+}
+main{
+  padding-top: 100px;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  color: #006400;
+}
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#back-to-top:hover {
+  background-color: #3e8e41;
+}
+
+nav {
+  display: flex; /* Navigation bar as flexbox */
+}
+
+.navigation-links {
+  display: flex; /* Navigation links as flexbox for centering */
+  flex-grow: 1; /* Allow remaining buttons to fill the space */
+  margin-left: auto; /* Push remaining buttons to the right */
+}
